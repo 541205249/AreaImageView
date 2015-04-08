@@ -17,7 +17,11 @@ import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
 import com.jiazy.areaview.R;
- 
+ /**
+  * 
+  * @author jiazy
+  *
+  */
 @SuppressWarnings("deprecation")
 @SuppressLint("ShowToast")
 public class AreaTabActivity extends ActivityGroup {
