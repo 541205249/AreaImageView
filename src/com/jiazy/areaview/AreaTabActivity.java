@@ -96,7 +96,7 @@ public class AreaTabActivity extends ActivityGroup {
 	
 	/**
 	 * 加载子Activity
-	 * @param tag
+	 * @param tag 
 	 * @param intent
 	 */
 	private void customStartActivity(String tag, Intent intent) {
