@@ -17,7 +17,7 @@ import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
 import com.jiazy.areaview.R;
-
+ 
 @SuppressWarnings("deprecation")
 @SuppressLint("ShowToast")
 public class AreaTabActivity extends ActivityGroup {
@@ -96,7 +96,6 @@ public class AreaTabActivity extends ActivityGroup {
 	
 	/**
 	 * 加载子Activity
-	 * 
 	 * @param tag
 	 * @param intent
 	 */
