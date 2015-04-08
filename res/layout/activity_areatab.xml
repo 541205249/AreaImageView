@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACED9E" >
+
+    <RadioGroup
+        android:id="@+id/areatab_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/areatab_provinceBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/china"
+            android:textColor="@drawable/radiobutton_txt_bule_color"
+            android:textSize="18sp" />
+        
+        <View
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:background="#D2D2D0" />
+
+        <RadioButton
+            android:id="@+id/areatab_cityBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/hunan"
+            android:textColor="@drawable/radiobutton_txt_bule_color"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/areatab_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/areatab_radioGroup"
+        android:orientation="vertical" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="radiobtn_txt_bule_true">#1AACFF</color>
+    <color name="radiobtn_txt_bule_false">#6B6B6B</color>
+    
+</resources>
